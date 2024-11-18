@@ -1,4 +1,5 @@
 // Pedir al usuario que ingrese tres números
+const prompt = require("prompt-sync")({ sigint: true }); 
 let numero1 = parseFloat(prompt("Ingresa el primer número:"));
 let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
 let numero3 = parseFloat(prompt("Ingresa el tercer número:"));
