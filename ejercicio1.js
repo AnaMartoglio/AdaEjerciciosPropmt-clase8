@@ -1,5 +1,5 @@
 //Ejercicio 1 - Ir a comprar un alfajor a la esquina
-
+const prompt = require("prompt-sync")({ sigint: true }); 
 let plataEnBolsillo = 20000;
 let tipoDeAlfajor = "chocolate";
 let estaAbiertoKiosco = true;
